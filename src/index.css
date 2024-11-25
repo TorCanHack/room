@@ -562,33 +562,62 @@ video {
   position: relative;
 }
 
-.-bottom-6 {
-  bottom: -1.5rem;
+.-right-0 {
+  right: -0px;
 }
 
-.left-72 {
-  left: 18rem;
+.-right-0\.5 {
+  right: -0.125rem;
 }
 
-.right-2 {
-  right: 0.5rem;
+.-top-11 {
+  top: -2.75rem;
 }
 
-.top-10 {
-  top: 2.5rem;
+.bottom-322 {
+  bottom: 24rem;
+}
+
+.left-17 {
+  left: 17rem;
+}
+
+.top-11 {
+  top: 2.75rem;
+}
+
+.top-14 {
+  top: 3.5rem;
 }
 
 .z-10 {
   z-index: 10;
 }
 
-.z-20 {
-  z-index: 20;
+.z-30 {
+  z-index: 30;
 }
 
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.-mt-10 {
+  margin-top: -2.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .flex {
@@ -603,6 +632,10 @@ video {
   height: 3.5rem;
 }
 
+.h-1538 {
+  height: 96rem;
+}
+
 .h-28 {
   height: 7rem;
 }
@@ -611,12 +644,12 @@ video {
   width: 3.5rem;
 }
 
-.w-96 {
-  width: 24rem;
+.w-232 {
+  width: 14.5rem;
 }
 
-.w-full {
-  width: 100%;
+.w-375 {
+  width: 23.438rem;
 }
 
 .w-72 {
@@ -652,23 +685,9 @@ video {
   justify-content: space-between;
 }
 
-.border {
-  border-width: 1px;
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
-}
-
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
-}
-
-.bg-blue-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity, 1));
 }
 
 .bg-white {
@@ -679,4 +698,85 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.font-spartan {
+  font-family: League Spartan, sans-serif;
+}
+
+.text-40 {
+  font-size: 2.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-cutsome22 {
+  line-height: 22px;
+}
+
+.leading-none {
+  line-height: 1;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
+.tracking-wide12 {
+  letter-spacing: 12.5px;
+}
+
+.tracking-wide5 {
+  letter-spacing: 5.83px;
+}
+
+.text-mgray {
+  --tw-text-opacity: 1;
+  color: rgb(160 160 160 / var(--tw-text-opacity, 1));
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
